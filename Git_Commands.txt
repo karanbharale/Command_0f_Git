@@ -107,6 +107,12 @@
 	git remote -v
 
 
+23. To push data in github.
+	git push origin master
+
+
+
+
  
 
 

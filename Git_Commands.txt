@@ -85,9 +85,9 @@
 
 
 19. To see all commits of sum days.
-	git log --since=n.days   ......(here n is number)
+	git log --since=n.days    ......(here n is number)
 	git log --since=n.weeks   ......(here n is number)
-	git log --since=n.months   ......(here n is number)
+	git log --since=n.months  ......(here n is number)
 	git log --since=n.years   ......(here n is number)
 
 
@@ -110,6 +110,22 @@
 23. To push data in github.
 	git push origin master
 
+
+24. To make/go to new branch other than Master branch.
+	git checkout -b <branch_name>
+	
+
+25. To come back into original Master branch.
+	git checkout master
+
+
+26. To check in which branch you are.
+	git branch
+
+
+27. To delete .git hidden folder created.
+	rm -rf .git
+ 
 
 
 

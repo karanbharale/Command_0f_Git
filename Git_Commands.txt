@@ -1,0 +1,114 @@
+1.  To show who you are.
+	git config --global user.name "karan"
+	git config --global user.email "bharalekaran@gmail.com"
+
+
+2.  To check your presence.
+	git config --list
+	git config user.name
+	git config user.email
+
+
+3.  To check your repositorys.
+	git status
+
+
+4.  To make yor folder git reposit.
+	git init
+
+
+5.  To add files / changes made files for commit.
+	git add --a 
+	git add.
+	git add <filename> 
+
+	
+6.  To make your foldre git commit.
+	git commit -m "...."
+
+
+7.  To check the commit.
+	git log
+
+
+8.  To delete all reposit perminantaly.
+	rm -rf .git
+
+
+9.  To coppy any repositry.
+	git clone <url / if coppied shift+insert> file_name(name is of your choice)
+
+
+10. To ignore some files or folders.
+	first make one file(gitignore) in repositary and get it commit
+	then after add your file/folder name in the same file like
+	for different file =>       file_name.type
+	for same type of file =>    *.file.type 
+	for different folder =>     folder_name/
+	for same or different folders with same name => /folder_name/ 
+
+
+11. To know what changes are accured.
+	git diff
+
+
+12. To know what change is occure before staging.
+	git diff --staged
+
+
+13. To commit without comming in staging area.
+	git commit -a -m "...."	
+	 
+
+14. To delete file.
+	git rm file_name.type
+
+
+15. To rename file.
+	git mv file_name.type changedfile_name.type
+
+
+16. To explicetly untrack one file.
+	git rm --cached file_name.type
+
+
+17. To know what changes are done previously many more times.
+	git log -p
+	git log -p -n   ....(here n is number)
+
+
+18. To see all commits change at a time inshort.
+	git log --stat
+	git log --pretty=one
+	git log --pretty=short
+	git log --pretty=full
+
+
+19. To see all commits of sum days.
+	git log --since=n.days   ......(here n is number)
+	git log --since=n.weeks   ......(here n is number)
+	git log --since=n.months   ......(here n is number)
+	git log --since=n.years   ......(here n is number)
+
+
+20. To unstage file for not to commit.
+	git restore --staged <file.txt>
+
+
+21. To get last data of commited file matched with real time directory.
+	git chrckout -- <file.txt>
+	git checkout -f        ........(if more than one files)
+
+
+22. To push or pull data in github.
+	git remote
+	git remote add <name_of_choice> <url_from_github>
+	git remote
+	git remote -v
+
+
+ 
+
+
+
+

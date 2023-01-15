@@ -147,6 +147,26 @@
 	git branch -D <branch_name>
 
 
+32.  If you want to add your files on github then follow the steps
+     ( If you are working with colaberation on other gothub file then "fork" the project first )
+	 step-1 : coppy the url(https/ssh) 
+
+	 step-2 : create new folder wherever you want
+
+	 step-3 : open gitbash and write
+			git clone <copied url>
+
+	 step-4 : if you have coppied one existing project url then you will see one folder related that & follow step-5 otherwise step-6
+
+	 step-5 : if you want to get files/folder from github
+			git pull
+
+	 step-6 : add or update whatever you wnted to do in taht folder & follow the commands
+			git status  //(if you found fatal massage, that means you are in wrong folder go 1 step inside in same folder) 
+			git add --all
+			git commit --all -m "<comment>"
+			git push -u origin --all
+
 
  
 
